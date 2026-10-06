@@ -8,10 +8,15 @@ package part00;
 // Your one job in this file: change YOUR NAME below to your actual name,
 // run it, and check the output matches the README.
 
+// We are defining a public template called main
 public class Main {
+  // public static void main is our start point of the actual Program
     public static void main(String[] args) {
+  //  system outputs === Part 00 ===
         System.out.println("=== Part 00 ===");
-        System.out.println("Hello from YOUR NAME");
+  //  system outputs Hello from Kameron Randolph
+        System.out.println("Hello from Kameron Randolph");
+  //  system outputs if you can read this, your setup works
         System.out.println("If you can read this, your setup works.");
     }
 }

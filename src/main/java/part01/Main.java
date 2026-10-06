@@ -13,6 +13,14 @@ package part01;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
+// public template that defines Main
 public class Main {
+    // psvm is the start of our program that allows us to access eveything at the start
+    public static void main(String[] args) {
+        // system outputs I love pizza that is tabbed in and then prints to a new line.
+        System.out.println("\t\"I love pizza\"\n");
+        // system outputs It's really good with a \ at the end that also prints to a new line
+        System.out.println("It's really good \\");
 
+    }
 }
