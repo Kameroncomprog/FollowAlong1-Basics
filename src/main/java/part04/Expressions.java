@@ -15,5 +15,15 @@ package part04;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Expressions {
+    // psvm is the start of the program and allows us to use eveything in it at the start of the program
+    public static void main(String[] args) {
+        // the number 10 is assigned to a int variable called friends
+        int friends = 10;
+        // friends which has the number 10 stored in it + 1 that new value which is 11 is now restored in the variable friends updated
+        friends=friends + 1;
+        // system outputs the updated variable friends which is 11
+        System.out.println(friends);
 
+
+    }
 }
